@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "窓の仕切り屋", "窓の仕切り屋\窓の仕切り屋.vcxproj", "{D21DD051-9BEC-45D0-B2C4-F1655D9922B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D36B6F75-BF13-4A69-A845-55D89885B221} = {D36B6F75-BF13-4A69-A845-55D89885B221}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL", "DLL\DLL.vcxproj", "{D36B6F75-BF13-4A69-A845-55D89885B221}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D21DD051-9BEC-45D0-B2C4-F1655D9922B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D21DD051-9BEC-45D0-B2C4-F1655D9922B8}.Debug|Win32.Build.0 = Debug|Win32
+		{D21DD051-9BEC-45D0-B2C4-F1655D9922B8}.Release|Win32.ActiveCfg = Release|Win32
+		{D21DD051-9BEC-45D0-B2C4-F1655D9922B8}.Release|Win32.Build.0 = Release|Win32
+		{D36B6F75-BF13-4A69-A845-55D89885B221}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D36B6F75-BF13-4A69-A845-55D89885B221}.Debug|Win32.Build.0 = Debug|Win32
+		{D36B6F75-BF13-4A69-A845-55D89885B221}.Release|Win32.ActiveCfg = Release|Win32
+		{D36B6F75-BF13-4A69-A845-55D89885B221}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
